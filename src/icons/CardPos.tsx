@@ -14,11 +14,11 @@ const CardPos: React.FC<IconWrapperProps> = ({ color = 'currentColor', set = 'ou
 
     const Broken = () => (
         <g>
-            <path d="M3.92969 15.8799L15.8797 3.92993" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M11.0996 18.2801L12.2996 17.0801" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M13.7891 15.59L16.1791 13.2" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M20.4295 8.47998C22.5295 10.58 22.5195 11.64 20.3995 13.76L13.7595 20.4C11.6395 22.52 10.5795 22.53 8.47949 20.43L3.56949 15.52C1.46949 13.42 1.47949 12.36 3.59949 10.24L10.2395 3.59998C12.3595 1.47998 13.4195 1.46998 15.5195 3.56998L17.4195 5.46998" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M2 22H22" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M3.92969 15.8799L15.8797 3.92993" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M11.0996 18.2801L12.2996 17.0801" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13.7891 15.59L16.1791 13.2" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M20.4295 8.47998C22.5295 10.58 22.5195 11.64 20.3995 13.76L13.7595 20.4C11.6395 22.52 10.5795 22.53 8.47949 20.43L3.56949 15.52C1.46949 13.42 1.47949 12.36 3.59949 10.24L10.2395 3.59998C12.3595 1.47998 13.4195 1.46998 15.5195 3.56998L17.4195 5.46998" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M2 22H22" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
         </g>
     )
 
@@ -34,11 +34,11 @@ const CardPos: React.FC<IconWrapperProps> = ({ color = 'currentColor', set = 'ou
 
     const Linear = () => (
         <g>
-            <path d="M3.92969 15.8792L15.8797 3.9292" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M11.1013 18.2791L12.3013 17.0791" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M13.793 15.5887L16.183 13.1987" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M3.60127 10.239L10.2413 3.599C12.3613 1.479 13.4213 1.469 15.5213 3.569L20.4313 8.479C22.5313 10.579 22.5213 11.639 20.4013 13.759L13.7613 20.399C11.6413 22.519 10.5813 22.529 8.48127 20.429L3.57127 15.519C1.47127 13.419 1.47127 12.369 3.60127 10.239Z" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M2 21.9985H22" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M3.92969 15.8792L15.8797 3.9292" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M11.1013 18.2791L12.3013 17.0791" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13.793 15.5887L16.183 13.1987" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M3.60127 10.239L10.2413 3.599C12.3613 1.479 13.4213 1.469 15.5213 3.569L20.4313 8.479C22.5313 10.579 22.5213 11.639 20.4013 13.759L13.7613 20.399C11.6413 22.519 10.5813 22.529 8.48127 20.429L3.57127 15.519C1.47127 13.419 1.47127 12.369 3.60127 10.239Z" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M2 21.9985H22" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
         </g>
     )
 
@@ -55,11 +55,11 @@ const CardPos: React.FC<IconWrapperProps> = ({ color = 'currentColor', set = 'ou
 
     const TwoTone = () => (
         <g>
-            <path opacity="0.4" d="M3.92969 15.8792L15.8797 3.9292" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path opacity="0.4" d="M11.1016 18.2791L12.3016 17.0791" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path opacity="0.4" d="M13.793 15.5887L16.183 13.1987" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M3.60127 10.239L10.2413 3.599C12.3613 1.479 13.4213 1.469 15.5213 3.569L20.4313 8.479C22.5313 10.579 22.5213 11.639 20.4013 13.759L13.7613 20.399C11.6413 22.519 10.5813 22.529 8.48127 20.429L3.57127 15.519C1.47127 13.419 1.47127 12.369 3.60127 10.239Z" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M2 21.9985H22" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
+            <path opacity="0.4" d="M3.92969 15.8792L15.8797 3.9292" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path opacity="0.4" d="M11.1016 18.2791L12.3016 17.0791" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path opacity="0.4" d="M13.793 15.5887L16.183 13.1987" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M3.60127 10.239L10.2413 3.599C12.3613 1.479 13.4213 1.469 15.5213 3.569L20.4313 8.479C22.5313 10.579 22.5213 11.639 20.4013 13.759L13.7613 20.399C11.6413 22.519 10.5813 22.529 8.48127 20.429L3.57127 15.519C1.47127 13.419 1.47127 12.369 3.60127 10.239Z" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M2 21.9985H22" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
         </g>
     )
 

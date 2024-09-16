@@ -13,13 +13,13 @@ const CardRemoveAlt: React.FC<IconWrapperProps> = ({ color = 'currentColor', set
 
     const Broken = () => (
         <g>
-            <path d="M2 8.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M6 16.5H8" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M10.5 16.5H14.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M2 11.03V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V15.02" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M17.3105 8.19006L21.1905 4.31006" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
-            <path d="M21.1905 8.19006L17.3105 4.31006" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
+            <path d="M2 8.5H13.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M6 16.5H8" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M10.5 16.5H14.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M2 11.03V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V15.02" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M17.3105 8.19006L21.1905 4.31006" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+            <path d="M21.1905 8.19006L17.3105 4.31006" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
         </g>
     )
 
@@ -32,12 +32,12 @@ const CardRemoveAlt: React.FC<IconWrapperProps> = ({ color = 'currentColor', set
     )
     const Linear = () => (
         <g>
-            <path d="M2 8.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M6 16.5H8" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M10.5 16.5H14.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M17.3086 8.18957L21.1886 4.30957" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
-            <path d="M21.1886 8.18957L17.3086 4.30957" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
+            <path d="M2 8.5H13.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M6 16.5H8" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M10.5 16.5H14.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M17.3086 8.18957L21.1886 4.30957" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+            <path d="M21.1886 8.18957L17.3086 4.30957" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
         </g>
     )
     const Outline = () => (
@@ -52,13 +52,13 @@ const CardRemoveAlt: React.FC<IconWrapperProps> = ({ color = 'currentColor', set
     )
     const TwoTone = () => (
         <g>
-            <path d="M2 8.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path opacity="0.4" d="M6 16.5H8" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path opacity="0.4" d="M10.5 16.5H14.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M2 8.5H13.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path opacity="0.4" d="M6 16.5H8" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path opacity="0.4" d="M10.5 16.5H14.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
             <g opacity="0.4">
-                <path d="M17.3086 8.18957L21.1886 4.30957" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
-                <path d="M21.1886 8.18957L17.3086 4.30957" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
+                <path d="M17.3086 8.18957L21.1886 4.30957" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+                <path d="M21.1886 8.18957L17.3086 4.30957" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
             </g>
         </g>
     )

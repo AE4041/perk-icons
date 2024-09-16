@@ -11,10 +11,10 @@ const ChartSquare: React.FC<IconWrapperProps> = ({ color = 'currentColor', set =
 
     const Broken = () => (
         <g>
-            <path d="M2 12.83V15C2 20 4 22 9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M10.1103 11.1501H7.4603C6.8303 11.1501 6.32031 11.6601 6.32031 12.2901V17.4101H10.1103V11.1501V11.1501Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M12.7596 6.6001H11.2396C10.6096 6.6001 10.0996 7.11011 10.0996 7.74011V17.4001H13.8896V7.74011C13.8896 7.11011 13.3896 6.6001 12.7596 6.6001Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M16.5504 12.8501H13.9004V17.4001H17.6904V13.9901C17.6804 13.3601 17.1704 12.8501 16.5504 12.8501Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M2 12.83V15C2 20 4 22 9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M10.1103 11.1501H7.4603C6.8303 11.1501 6.32031 11.6601 6.32031 12.2901V17.4101H10.1103V11.1501V11.1501Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M12.7596 6.6001H11.2396C10.6096 6.6001 10.0996 7.11011 10.0996 7.74011V17.4001H13.8896V7.74011C13.8896 7.11011 13.3896 6.6001 12.7596 6.6001Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M16.5504 12.8501H13.9004V17.4001H17.6904V13.9901C17.6804 13.3601 17.1704 12.8501 16.5504 12.8501Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
         </g>
     )
 
@@ -28,10 +28,10 @@ const ChartSquare: React.FC<IconWrapperProps> = ({ color = 'currentColor', set =
     )
     const Linear = () => (
         <g>
-            <path d="M10.11 11.1501H7.46005C6.83005 11.1501 6.32007 11.6601 6.32007 12.2901V17.4101H10.11V11.1501V11.1501Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M12.7613 6.6001H11.2413C10.6113 6.6001 10.1013 7.11011 10.1013 7.74011V17.4001H13.8913V7.74011C13.8913 7.11011 13.3913 6.6001 12.7613 6.6001Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M16.5482 12.8501H13.8982V17.4001H17.6882V13.9901C17.6782 13.3601 17.1682 12.8501 16.5482 12.8501Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M10.11 11.1501H7.46005C6.83005 11.1501 6.32007 11.6601 6.32007 12.2901V17.4101H10.11V11.1501V11.1501Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M12.7613 6.6001H11.2413C10.6113 6.6001 10.1013 7.11011 10.1013 7.74011V17.4001H13.8913V7.74011C13.8913 7.11011 13.3913 6.6001 12.7613 6.6001Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M16.5482 12.8501H13.8982V17.4001H17.6882V13.9901C17.6782 13.3601 17.1682 12.8501 16.5482 12.8501Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
         </g>
     )
     const Outline = () => (
@@ -45,11 +45,11 @@ const ChartSquare: React.FC<IconWrapperProps> = ({ color = 'currentColor', set =
     const TwoTone = () => (
         <g>
             <g opacity="0.4">
-                <path d="M10.1103 11.1504H7.4603C6.8303 11.1504 6.32031 11.6603 6.32031 12.2903V17.4103H10.1103V11.1504V11.1504Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M12.7616 6.6001H11.2415C10.6115 6.6001 10.1016 7.11011 10.1016 7.74011V17.4001H13.8916V7.74011C13.8916 7.11011 13.3916 6.6001 12.7616 6.6001Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M16.5504 12.8501H13.9004V17.4001H17.6904V13.9901C17.6804 13.3601 17.1704 12.8501 16.5504 12.8501Z" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M10.1103 11.1504H7.4603C6.8303 11.1504 6.32031 11.6603 6.32031 12.2903V17.4103H10.1103V11.1504V11.1504Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M12.7616 6.6001H11.2415C10.6115 6.6001 10.1016 7.11011 10.1016 7.74011V17.4001H13.8916V7.74011C13.8916 7.11011 13.3916 6.6001 12.7616 6.6001Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M16.5504 12.8501H13.9004V17.4001H17.6904V13.9901C17.6804 13.3601 17.1704 12.8501 16.5504 12.8501Z" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
             </g>
-            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
         </g>
     )
 

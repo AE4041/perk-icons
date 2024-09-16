@@ -14,13 +14,13 @@ const CardAdd: React.FC<IconWrapperProps> = ({ color = 'currentColor', set = 'ou
 
     const Broken = () => (
         <g>
-            <path d="M2 8.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M6 16.5H8" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M10.5 16.5H14.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M2 11.01V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V15.04" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M16.5 6.25H22" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
-            <path d="M19.25 9V3.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
+            <path d="M2 8.5H13.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M6 16.5H8" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M10.5 16.5H14.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M2 11.01V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V15.04" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M16.5 6.25H22" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+            <path d="M19.25 9V3.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
         </g>
     )
 
@@ -34,12 +34,12 @@ const CardAdd: React.FC<IconWrapperProps> = ({ color = 'currentColor', set = 'ou
 
     const Linear = () => (
         <g>
-            <path d="M2 8.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M6 16.5H8" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M10.5 16.5H14.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M16.5 6.25H22" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
-            <path d="M19.25 9V3.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
+            <path d="M2 8.5H13.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M6 16.5H8" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M10.5 16.5H14.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M16.5 6.25H22" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+            <path d="M19.25 9V3.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
         </g>
     )
 
@@ -56,13 +56,13 @@ const CardAdd: React.FC<IconWrapperProps> = ({ color = 'currentColor', set = 'ou
 
     const TwoTone = () => (
         <g>
-            <path d="M2 8.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path opacity="0.4" d="M6 16.5H8" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path opacity="0.4" d="M10.5 16.5H14.5" stroke={color} stroke-width={strokeWidth} stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M2 8.5H13.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path opacity="0.4" d="M6 16.5H8" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path opacity="0.4" d="M10.5 16.5H14.5" stroke={color} strokeWidth={strokeWidth} stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
             <g opacity="0.4">
-                <path d="M16.5 6.25H22" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
-                <path d="M19.25 9V3.5" stroke={color} stroke-width={strokeWidth} stroke-linecap="round" />
+                <path d="M16.5 6.25H22" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+                <path d="M19.25 9V3.5" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
             </g>
         </g>
     )
