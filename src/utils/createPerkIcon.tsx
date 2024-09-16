@@ -3,7 +3,7 @@ import React, { forwardRef, CSSProperties } from 'react';
 export interface IconWrapperProps extends Partial<React.SVGProps<SVGSVGElement>> {
   /** The color of the svg icon */
   color?: string;
-
+  
   /** StrokeWidth of the svg icon
    * @default 1.5
    */
@@ -20,7 +20,10 @@ export interface IconWrapperProps extends Partial<React.SVGProps<SVGSVGElement>>
    */
   set?: 'bold' | 'broken' | 'bulk' | 'linear' | 'outline' | 'twoTone'
 
-  /** Css styles applied to the svg icon */
+  /** 
+   * Css styles applied to the svg icon
+   * 
+   */
   style?: CSSProperties;
 }
 
@@ -43,7 +46,7 @@ export interface IconWrapperProps extends Partial<React.SVGProps<SVGSVGElement>>
  * 
  * <Air color="red" strokeWidth="2" size="32" set="outline"/>
  */
-const createPerkIcon = <T,>(Component: React.ComponentType<T>) => {
+const createPerkIcon = <T,>(Component: React.ComponentType<T>): React.ForwardRefExoticComponent<IconWrapperProps & React.RefAttributes<SVGSVGElement>> => {
   const IconWrapper = forwardRef<SVGSVGElement, IconWrapperProps>(
     ({ color, strokeWidth = "1.5", size = '24', set = 'outline', style, ...props }, ref) => {
 
